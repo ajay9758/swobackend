@@ -3,7 +3,7 @@ import axios from "axios";
 let x = "";
 // eslint-disable-next-line no-undef
 if (process.env.NODE_ENV === "production") {
-  x = "localhost:8000";
+  x = "139.59.72.141";
 } else {
   x = "localhost:8000";
 }
