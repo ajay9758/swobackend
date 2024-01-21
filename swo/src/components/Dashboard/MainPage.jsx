@@ -59,7 +59,7 @@ export default function MainPage() {
   const [data, setData] = useState([]);
   useEffect(() => {
     axios
-      .get("http://localhost:8000/api/products/")
+      .get("http://139.59.72.141:8000/api/products/")
       .then((res) => {
         setData(res.data.data);
       })
