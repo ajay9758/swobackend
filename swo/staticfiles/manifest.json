@@ -1,0 +1,32 @@
+{
+  "assets/GB.png": {
+    "file": "assets/GB-8QlyygPA.png",
+    "src": "assets/GB.png"
+  },
+  "assets/diamond.png": {
+    "file": "assets/diamond-JNK6islL.png",
+    "src": "assets/diamond.png"
+  },
+  "assets/geiranger.jpg": {
+    "file": "assets/geiranger-59CArNff.jpg",
+    "src": "assets/geiranger.jpg"
+  },
+  "index.html": {
+    "assets": [
+      "assets/GB-8QlyygPA.png",
+      "assets/diamond-JNK6islL.png",
+      "assets/geiranger-59CArNff.jpg",
+      "assets/vite-3Abc9Kcl.svg"
+    ],
+    "css": [
+      "assets/index-fbkXpd9e.css"
+    ],
+    "file": "assets/index-cPtuL3N0.js",
+    "isEntry": true,
+    "src": "index.html"
+  },
+  "vite.svg": {
+    "file": "assets/vite-3Abc9Kcl.svg",
+    "src": "vite.svg"
+  }
+}
