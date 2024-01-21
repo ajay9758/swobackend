@@ -5,7 +5,8 @@ import InputAdornment from "@mui/material/InputAdornment";
 import SearchIcon from "@mui/icons-material/Search";
 import AddIcon from "@mui/icons-material/Add";
 import LocalPrintshopIcon from "@mui/icons-material/LocalPrintshop";
-import axios from "../../utils/axiosInstance/axios";
+// import axios from "../../utils/axiosInstance/axios";
+import axios from "axios";
 import { useEffect, useState } from "react";
 
 const columns = [
@@ -58,7 +59,7 @@ export default function MainPage() {
   const [data, setData] = useState([]);
   useEffect(() => {
     axios
-      .get("/products/")
+      .get("http:139.59.72.141/api/products/")
       .then((res) => {
         setData(res.data.data);
       })
