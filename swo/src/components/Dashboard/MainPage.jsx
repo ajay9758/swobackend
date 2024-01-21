@@ -58,6 +58,7 @@ const columns = [
 export default function MainPage() {
   const [data, setData] = useState([]);
   useEffect(() => {
+    //test
     axios
       .get("http://139.59.72.141:8000/api/products/")
       .then((res) => {
